@@ -21,3 +21,37 @@
 .overlay {
     width: 100%;
 }
+
+/* About Me Section */
+
+#about {
+    background-color: #f8f9fa;
+}
+
+
+#about img {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border: 5px solid white;
+}
+
+
+#about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #212529;
+}
+
+
+#about p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+}
+
+
+#about .btn {
+    margin-top: 15px;
+    padding: 10px 25px;
+}
