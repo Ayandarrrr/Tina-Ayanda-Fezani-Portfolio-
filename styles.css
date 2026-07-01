@@ -135,3 +135,32 @@
     border-radius: 25px;
     margin-top: 10px;
 }
+
+
+/* Contact Section */
+
+#contact {
+    background-color: #f8f9fa;
+}
+
+.contact-card {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+.contact-icon {
+    font-size: 2rem;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.contact-card h4 {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.contact-card p {
+    color: #555;
+}
