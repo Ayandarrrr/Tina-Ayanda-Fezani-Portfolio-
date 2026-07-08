@@ -22,7 +22,8 @@
     </a>
 
     <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+
+    <nav class="navbar navbar-expand-lg sticky-top">
 
         <div class="container">
 
@@ -30,28 +31,22 @@
                 Portfolio
             </a>
 
-            <ul class="navbar-nav ms-auto">
+            <ul class="navbar-nav ms-auto d-flex flex-row align-items-center gap-3"></ul>
 
                 <li class="nav-item">
                     <a class="nav-link active" href="#">Home</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="#about">
-                        About Me
-                    </a>
+                    <a class="nav-link" href="#about">About Me</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="#projects">
-                        Projects
-                    </a>
+                    <a class="nav-link" href="#projects">Projects</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="#contact">
-                        Contact
-                    </a>
+                    <a class="nav-link" href="#contact">Contact</a>
                 </li>
 
             </ul>
@@ -59,7 +54,9 @@
         </div>
 
     </nav>
+
 </header>
+
 
 <main id="main-content">
 
@@ -88,45 +85,84 @@
 </section>
 
 
+
+
+
 <section id="about" class="py-5">
 
     <div class="container">
 
-        <div class="row align-items-center">
+        <div class="card border-0 shadow-lg rounded-4 p-4">
 
-           
-            <div class="col-md-5 text-center">
+            <div class="row align-items-center">
 
-                <img src="images/profile.jpeg" 
-                     alt="Tina Ayanda Fezani Profile Picture"
-                     class="img-fluid rounded-circle shadow">
-
-            </div>
-
-
-            
-            <div class="col-md-7">
-
-                <h2 class="fw-bold">
-                    About Me
-                </h2>
-
-                <p>
-                    Hi, I’m Tina Ayanda Fezani, a passionate 
-                    Front-End Web Developer who enjoys creating 
-                    responsive and user-friendly websites.
-                </p>
-
-                <p>
-                    I am currently building my skills in HTML, CSS,
-                    Bootstrap, and JavaScript while developing modern
-                    web experiences.
-                </p>
                 
 
-                <a href="#projects" class="btn btn-dark">
-                    View My Projects
-                </a>
+                <div class="col-lg-4 text-center">
+
+                    <img src="images/profile.jpeg"
+                        alt="Tina Ayanda Fezani"
+                        class="img-fluid rounded-circle mb-4">
+
+                    <h4 class="fw-bold">
+                        Tina Ayanda Fezani
+                    </h4>
+
+                    <p class="text-muted">
+                        Front-End Web Developer
+                    </p>
+
+                    <p>
+                        <strong>Phone:</strong><br>
+                        +27 67 417 4314
+                    </p>
+
+                    <p>
+                        <strong>Email:</strong><br>
+                        fezaniayanda@gmail.com
+                    </p>
+
+                    <div class="mt-3">
+
+                        <span class="badge bg-dark m-1">HTML</span>
+
+                        <span class="badge bg-dark m-1">CSS</span>
+
+                        <span class="badge bg-dark m-1">Bootstrap</span>
+
+                        <span class="badge bg-dark m-1">JavaScript</span>
+
+                        <span class="badge bg-dark m-1">Git</span>
+
+                        <span class="badge bg-dark m-1">GitHub</span>
+
+                    </div>
+
+                </div>
+
+             
+
+                <div class="col-lg-8">
+
+                    <span class="about-label">
+                        About Me
+                    </span>
+
+                    <h2 class="fw-bold mt-3">
+                        Who I Am
+                    </h2>
+
+                    <p class="mt-4">
+
+                        Hi, I'm Tina Ayanda Fezani, an aspiring Front-End Web Developer passionate about creating responsive and user-friendly websites. Through the Zaio Full Stack Web Development programme, I have built projects using HTML, CSS, Bootstrap, and JavaScript. I enjoy turning ideas into clean, modern interfaces while continuously improving my skills through practical projects and collaboration. My goal is to grow into a professional software developer and contribute to building impactful digital solutions.
+
+                    </p>
+
+                    <a href="#projects" class="btn btn-primary mt-3">
+                        View My Projects
+                    </a>
+
+                </div>
 
             </div>
 
@@ -136,132 +172,7 @@
 
 </section>
 
-
-<section id="skills" class="py-5">
-
-    <div class="container">
-
-        <div class="text-center mb-5">
-
-            <h2 class="fw-bold">
-                My Skills
-            </h2>
-
-            <p>
-                Technologies and tools I use to create websites.
-            </p>
-
-        </div>
-
-
-        <div class="row g-4">
-
-
-            <
-            <div class="col-md-3">
-
-                <div class="card text-center shadow-sm h-100">
-
-                    <div class="card-body">
-
-                        <i class="bi bi-code-slash fs-1"></i>
-
-                        <h5 class="card-title mt-3">
-                            HTML
-                        </h5>
-
-                        <p class="card-text">
-                            Creating structured and accessible web pages.
-                        </p>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-
-           
-            <div class="col-md-3">
-
-                <div class="card text-center shadow-sm h-100">
-
-                    <div class="card-body">
-
-                        <i class="bi bi-palette fs-1"></i>
-
-                        <h5 class="card-title mt-3">
-                            CSS
-                        </h5>
-
-                        <p class="card-text">
-                            Designing beautiful and responsive layouts.
-                        </p>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-
-           
-            <div class="col-md-3">
-
-                <div class="card text-center shadow-sm h-100">
-
-                    <div class="card-body">
-
-                        <i class="bi bi-bootstrap fs-1"></i>
-
-                        <h5 class="card-title mt-3">
-                            Bootstrap
-                        </h5>
-
-                        <p class="card-text">
-                            Building responsive websites efficiently.
-                        </p>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-
-            
-            <div class="col-md-3">
-
-                <div class="card text-center shadow-sm h-100">
-
-                    <div class="card-body">
-
-                        <i class="bi bi-github fs-1"></i>
-
-                        <h5 class="card-title mt-3">
-                            Git & GitHub
-                        </h5>
-
-                        <p class="card-text">
-                            Managing projects and tracking code changes.
-                        </p>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-        </div>
-
-    </div>
-
-</section>
-
+       
 
 
 
@@ -271,416 +182,133 @@
 
         <div class="text-center mb-5">
 
-            <h2 class="fw-bold">My Projects</h2>
+            <span class="about-label">
+                My Projects
+            </span>
 
-            <p>
-                Click each project to view a case study.
+            <h2 class="fw-bold mt-3">
+                Featured Projects
+            </h2>
+
+            <p class="text-muted">
+                Here are some of the websites I've built while learning Front-End Web Development.
             </p>
 
         </div>
 
-        
-        <div class="row g-4 align-items-stretch">
+        <div class="row g-4">
 
+    
+    <div class="col-lg-4 col-md-6">
+        <div class="card project-card h-100">
+            <img src="images/ihub profile.jpg" class="card-img-top" alt="iHub Africa">
+            <div class="card-body d-flex flex-column">
+                <h5 class="fw-bold">iHub Africa</h5>
+                <p class="text-muted">
+                    Team project built with HTML, CSS and Bootstrap.
+                </p>
 
-            <!-- iHub Team Project  NEED TO ASK KAZADI FOR THIS --->
-            <div class="col-md-4">
-
-                <div class="card project-card h-100">
-
-                    <img src="images/ihub profile.jpg" class="card-img-top" alt="iHub">
-
-                    <div class="card-body">
-
-                        <h5>iHub Africa (Team Project)</h5>
-
-                        <p>
-                            Front-End Developer in a team project building a client website.
-                        </p>
-
-                        <button class="btn btn-dark w-100"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#ihubCase">
-                            View 
-                        </button>
-
-                        <div class="collapse mt-3" id="ihubCase">
-
-                            <div class="case-box">
-
-                                <h6>Overview</h6>
-                                <p>Worked in a team to build a responsive client website.</p>
-
-                                <h6>My Role</h6>
-                                <p>Front-End Developer (HTML, CSS, Bootstrap)</p>
-
-                                <h6>Contribution</h6>
-                                <p>Built layouts and ensured responsiveness across devices.</p>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
+                <a href="https://kmukendi10.github.io/iHub-Africa/" class="btn btn-primary mt-auto">
+                    View Website
+                </a>
             </div>
-
-
-            <!-- Netflix -->
-            <div class="col-md-4">
-
-                <div class="card project-card h-100">
-
-                    <img src="images/neflix.avif" class="card-img-top" alt="Netflix">
-
-                    <div class="card-body">
-
-                        <h5>Netflix Landing Page</h5>
-                         
-                        <p>A modern, responsive landing page inspired by Netflix's visual style.
-                             using HTML and CSS.
-                        </p>
-
-                       <div class="d-grid gap-2">
-
-                        <a href="https://ayandarrrr.github.io/Tina_Netflix_Landing_Page_Clone/"
-                           target="_blank"
-                            class="btn btn-dark">
-                             View Live Demo
-                                   </a>
-
-                         <a href="https://ayandarrrr.github.io/Tina_Netflix_Landing_Page_Clone/"
-                             target="_blank"
-                             class="btn btn-outline-dark">
-                               View Code
-                               </a>
-
-                          </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-
-            <div class="col-md-4">
-
-                <div class="card project-card h-100">
-
-                    <img src="images/tesla.avif" class="card-img-top" alt="Tesla">
-
-                    <div class="card-body">
-
-                        <h5>Tesla Landing Page</h5>
-
-                        <p>A modern, responsive landing page focusing on layout hierarchy and visual storytelling.
-                            Web Layout</p>
-
-                        <button class="btn btn-dark w-100"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#teslaCase">
-                            View 
-                        </button>
-
-                        <div class="collapse mt-3" id="teslaCase">
-
-                            <div class="case-box">
-                                <h6>Overview</h6>
-                                <p>Built a modern landing page layout.</p>
-
-                                <h6>Focus</h6>
-                                <p>Spacing, typography, clean design</p>
-
-                                <h6>Learning</h6>
-                                <p>Improved UI structuring skills</p>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            
-            <div class="col-md-4">
-
-                <div class="card project-card h-100">
-
-                    <img src="images/youtube.avif" class="card-img-top" alt="YouTube">
-
-                    <div class="card-body">
-
-                        <h5>YouTube Clone</h5>
-
-                        <p>Layout practice using grid and flexbox.</p>
-
-                        <button class="btn btn-dark w-100"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#youtubeCase">
-                            View 
-                        </button>
-
-                        <div class="collapse mt-3" id="youtubeCase">
-
-                            <div class="case-box">
-                                <h6>Overview</h6>
-                                <p>Recreated YouTube interface layout.</p>
-
-                                <h6>Skills</h6>
-                                <p>HTML, CSS Grid</p>
-
-                                <h6>Learning</h6>
-                                <p>Improved layout structuring</p>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <!-- Portfolio -->
-            <div class="col-md-4">
-
-                <div class="card project-card h-100">
-
-                    <img src="images/B9F330BD-D516-406F-9CAF-26F59FC77DD8_1_201_a.jpeg" class="card-img-top" alt="Portfolio">
-
-                    <div class="card-body">
-
-                        <h5>Personal Portfolio</h5>
-
-                        <p>Your current portfolio website.</p>
-
-                        <button class="btn btn-dark w-100"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#portfolioCase">
-                            View 
-                        </button>
-
-                        <div class="collapse mt-3" id="portfolioCase">
-
-                            <div class="case-box">
-                                <h6>Overview</h6>
-                                <p>This portfolio showcases my skills and projects.</p>
-
-                                <h6>Tech Stack</h6>
-                                <p>HTML, CSS, Bootstrap</p>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            
-            <div class="col-md-4">
-
-                <div class="card project-card h-100">
-
-                    <img src="images/CFBF5E77-7D5F-4802-AF32-0003F1806A89_1_201_a.jpeg" class="card-img-top" alt="To Do">
-
-                    <div class="card-body">
-
-                        <h5>To-Do List App</h5>
-
-                        <p>Simple task management app.</p>
-
-                        <button class="btn btn-dark w-100"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#todoCase">
-                            View 
-                        </button>
-
-                        <div class="collapse mt-3" id="todoCase">
-
-                            <div class="case-box">
-                                <h6>Overview</h6>
-                                <p>Task management application.</p>
-
-                                <h6>Skills</h6>
-                                <p>HTML, CSS, JS</p>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
         </div>
     </div>
 
-</section>
 
+    <div class="col-lg-4 col-md-6">
+        <div class="card project-card h-100">
+            <img src="images/neflix.avif" class="card-img-top" alt="Netflix">
+            <div class="card-body d-flex flex-column">
+                <h5 class="fw-bold">Netflix Landing Page</h5>
+                <p class="text-muted">
+                    Responsive Netflix landing page built using HTML and CSS.
+                </p>
 
-<section id="case-studies" class="py-5">
-
-<div class="container">
-
-    <div class="text-center mb-5">
-
-        <h2 class="fw-bold">Case Studies</h2>
-        <p>Detailed breakdown of my projects and contributions</p>
-
+                <a href="https://ayandarrrr.github.io/Tina_Netflix_Landing_Page_Clone/"
+                   target="_blank"
+                   class="btn btn-primary mt-auto">
+                    View Website
+                </a>
+            </div>
+        </div>
     </div>
 
+  
+    <div class="col-lg-4 col-md-6">
+        <div class="card project-card h-100">
+            <img src="images/tesla.avif" class="card-img-top" alt="Tesla">
+            <div class="card-body d-flex flex-column">
+                <h5 class="fw-bold">Tesla Landing Page</h5>
+                <p class="text-muted">
+                    Modern Tesla-inspired landing page built with HTML and CSS.
+                </p>
 
-    <!-- iHub TEAM PROJECT -->
-    <div class="case-study">
-
-        <h3>iHub Africa Website (Team Project)</h3>
-
-        <span class="badge bg-dark">Team Project</span>
-        <span class="badge bg-secondary">Front-End Developer</span>
-
-        <hr>
-
-        <h5>Overview</h5>
-        <p>
-            A collaborative client project where we built a responsive website for iHub Africa.
-        </p>
-
-        <h5>My Role</h5>
-        <p>
-            Front-End Developer responsible for layout structure and responsiveness.
-        </p>
-
-        <h5>Technologies Used</h5>
-        <p>HTML, CSS, Bootstrap</p>
-
-        <img src="resources/ihub.png" class="img-fluid rounded shadow mt-3">
-
+                <a href="https://tina-fezani-tesla.netlify.app/" target="_blank" class="btn btn-primary mt-auto">
+                    View Website
+                </a>
+            </div>
+        </div>
     </div>
 
+    
+    <div class="col-lg-4 col-md-6">
+        <div class="card project-card h-100">
+            <img src="images/youtube.avif" class="card-img-top" alt="YouTube">
+            <div class="card-body d-flex flex-column">
+                <h5 class="fw-bold">YouTube Clone</h5>
+                <p class="text-muted">
+                    YouTube interface recreated using HTML and CSS.
+                </p>
 
-    <!-- NETFLIX -->
-    <div class="case-study mt-5">
-
-        <h3>Netflix Landing Page</h3>
-
-        <span class="badge bg-dark">Personal Project</span>
-
-        <hr>
-
-        <h5>Overview</h5>
-        <p>A Netflix UI clone built using HTML and CSS.</p>
-
-        <h5>Skills Learned</h5>
-        <p>Flexbox, layout design, responsiveness</p>
-
-        <img src="resources/netflix.png" class="img-fluid rounded shadow mt-3">
-
+                <a href="https://ayandarrrr.github.io/YOUTUBE2.0/" class="btn btn-primary mt-auto">
+                    View Website
+                </a>
+            </div>
+        </div>
     </div>
 
+   
+    <div class="col-lg-4 col-md-6">
+        <div class="card project-card h-100">
+            <img src="images/B9F330BD-D516-406F-9CAF-26F59FC77DD8_1_201_a.jpeg" class="card-img-top" alt="Portfolio">
+            <div class="card-body d-flex flex-column">
+                <h5 class="fw-bold">Personal Portfolio</h5>
+                <p class="text-muted">
+                    Personal portfolio showcasing my skills and projects.
+                </p>
 
-    <!-- TESLA -->
-    <div class="case-study mt-5">
-
-        <h3>Tesla Landing Page</h3>
-
-        <span class="badge bg-dark">Personal Project</span>
-
-        <hr>
-
-        <h5>Overview</h5>
-        <p>A clean Tesla-inspired landing page focusing on modern UI design.</p>
-
-        <h5>Skills Learned</h5>
-        <p>Spacing, typography, UI structure</p>
-
-        <img src="resources/tesla.png" class="img-fluid rounded shadow mt-3">
-
+                <a href="https://ayandarrrr.github.io/Tina-Ayanda-Fezani-Portfolio-/" class="btn btn-primary mt-auto">
+                    View Website
+                </a>
+            </div>
+        </div>
     </div>
 
+  
+    <div class="col-lg-4 col-md-6">
+        <div class="card project-card h-100">
+            <img src="images/CFBF5E77-7D5F-4802-AF32-0003F1806A89_1_201_a.jpeg" class="card-img-top" alt="To Do List">
+            <div class="card-body d-flex flex-column">
+                <h5 class="fw-bold">To-Do List App</h5>
+                <p class="text-muted">
+                    Task management application built with HTML, CSS and JavaScript.
+                </p>
 
-    <!-- YOUTUBE -->
-    <div class="case-study mt-5">
-
-        <h3>YouTube Clone</h3>
-
-        <span class="badge bg-dark">Personal Project</span>
-
-        <hr>
-
-        <h5>Overview</h5>
-        <p>Recreated YouTube interface using HTML and CSS.</p>
-
-        <h5>Skills Learned</h5>
-        <p>Grid layout, flexbox, UI structuring</p>
-
-        <img src="resources/youtube.png" class="img-fluid rounded shadow mt-3">
-
-    </div>
-
-
-    <!-- PORTFOLIO -->
-    <div class="case-study mt-5">
-
-        <h3>Personal Portfolio Website</h3>
-
-        <span class="badge bg-dark">Personal Project</span>
-
-        <hr>
-
-        <h5>Overview</h5>
-        <p>This is my personal portfolio showcasing my skills and projects.</p>
-
-        <h5>Goal</h5>
-        <p>To present my work professionally online for recruiters and clients.</p>
-
-        <img src="resources/portfolio.png" class="img-fluid rounded shadow mt-3">
-
-    </div>
-
-
-    <!-- TO DO LIST -->
-    <div class="case-study mt-5">
-
-        <h3>To-Do List App</h3>
-
-        <span class="badge bg-dark">Personal Project</span>
-
-        <hr>
-
-        <h5>Overview</h5>
-        <p>A simple task management application to practice JavaScript logic and UI design.</p>
-
-        <h5>Skills Learned</h5>
-        <p>JavaScript basics, DOM manipulation, user interaction</p>
-
-        <img src="resources/todolist.png" class="img-fluid rounded shadow mt-3">
-
+                <a href="https://ayandarrrr.github.io/My-To-Do-List/" class="btn btn-primary mt-auto">
+                    View Website
+                </a>
+            </div>
+        </div>
     </div>
 
 </div>
 
-</section>
+                    
 
+            
+                     
+                        
 
 
 <section id="contact" class="py-5">
@@ -795,31 +423,19 @@
 </section>
 
 
-<footer class="footer">
+<footer class="footer text-center">
 
-    <div class="container text-center">
+    <div class="container">
 
-        <p class="mb-2">
-            © 2026 Tina Ayanda Fezani. All Rights Reserved.
+        <p>
+
+            Developed by <strong>Tina Ayanda Fezani</strong> using Bootstrap, for portfolio purposes.
+
         </p>
 
-        <div class="social-icons">
-
-            <a href="https://github.com/Ayandarrrr" target="_blank">
-                <i class="bi bi-github"></i>
-            </a>
-
-            <a href="https://www.linkedin.com/in/tina-ayanda-fezani-4b23b7271/" target="_blank">
-                <i class="bi bi-linkedin"></i>
-            </a>
-
-            <a href="mailto:fezaniayanda@gmail.com">
-                <i class="bi bi-envelope-fill"></i>
-            </a>
-
-        </div>
-
     </div>
+
+</footer>
 
 </footer>
 </body>
